@@ -66,3 +66,7 @@ sudo apt-get update && sudo apt-get install firefox-devedition
 Nu är FireFox-Develepor-Edition installerat.
 
 -----------
+Git ska vara intallertat från början men om det inte är det så laddar du ner Git med detta kommandot:
+```
+sudo apt-get install git
+```
