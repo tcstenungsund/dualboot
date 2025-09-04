@@ -2,7 +2,6 @@
 
 ## Innan du börjar  
 - Sätt i strömkabel in i datorn
-- Kubuntu USB-minnet in i datorn
 
 ## Installation
 ### Stäng av Secure Boot
