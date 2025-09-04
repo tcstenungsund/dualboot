@@ -2,7 +2,7 @@
 
 ## Innan du börjar  
 - Sätt i strömkabel in i datorn
-- Linux kubuntu USB insatt i datorn
+- Sätt i Kubuntu USB in i datorn
 
 ## Installation
 ### Stäng av Secure Boot
