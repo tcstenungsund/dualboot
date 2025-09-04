@@ -1,7 +1,7 @@
 # Hur man skapar dual boot med Kubuntu och Windows 
 
 ## Innan du börjar  
-- Strömkabel ikopplad till datorn
+- Sätt i strömkabel in i datorn
 - Linux kubuntu USB insatt i datorn
 
 ## Installation
