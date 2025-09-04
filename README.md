@@ -25,7 +25,9 @@
 - För tangentbordslayout, välj 'Swedish' och 'Default'
 - Välj 'Normal Installation'
 - Välj 'Install alongside' och tryck på 'nvme0n1p3', välj att använda ungefär hälften av partitionen
+![install_alongside](assets/install_alongside.png)
 - Fyll i uppgifterna i användarformuläret
+![anvandarformularet](assets/anvandarformularet.png)
 - Verifiera att samtlig information är överensstämmer med tidigare instruktioner och välj därefter 'Install'
 
 ---
