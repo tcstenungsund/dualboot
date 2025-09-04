@@ -115,7 +115,7 @@ sudo apt install codium
 ```
 
 ---
-Git ska vara intallertat från början men om det inte är det så laddar du ner Git med detta kommandot:
+Git ska vara installerat från början men om det inte är det så laddar du ner Git med detta kommandot nedan:
 ```
 sudo apt-get install git
 ```
