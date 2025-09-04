@@ -17,18 +17,23 @@
 - Tryck upprepat på F9
 - Välj 'UEFI - Kingston DataTraveler [...]'
 - Välj 'Try or Install Kubuntu'
+![try-or-install](assets/try-or-install.png)
 
 ### Vad du väljer under installationen
 - För nätverksanslutning, välj 'WiFi tcstenungsund' och skriv i lösenordet
 - Klicka 'Install Kubuntu'
 - Välj Europe, Stockholm som tidszon
+![timezone](assets/timezone.png)
 - För tangentbordslayout, välj 'Swedish' och 'Default'
+![keyboard-layout](assets/keyboard-layout.png)
 - Välj 'Normal Installation'
+![installation-mode](assets/installation-mode.png)
 - Välj 'Install alongside' och tryck på 'nvme0n1p3', välj att använda ungefär hälften av partitionen
-![install_alongside](assets/install_alongside.png)
+![disk-partitioning](assets/disk-partitioning.png)
 - Fyll i uppgifterna i användarformuläret
-![anvandarformularet](assets/anvandarformularet.png)
+![user-form](assets/user-form.png)
 - Verifiera att samtlig information är överensstämmer med tidigare instruktioner och välj därefter 'Install'
+![summary](assets/summary.png)
 
 ---
 
