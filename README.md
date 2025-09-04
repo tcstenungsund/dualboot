@@ -1,7 +1,7 @@
 # Hur man skapar dual boot med Kubuntu och Windows 
 
 ## Innan du börjar  
-- Sätt i strömkabel in i datorn
+Sätt i strömkabel in i datorn
 
 ## Installation
 ### Stäng av Secure Boot
@@ -32,12 +32,12 @@
 ![disk-partitioning](assets/disk-partitioning.png)
 - Fyll i uppgifterna i användarformuläret
 ![user-form](assets/user-form.png)
-- Verifiera att samtlig information är överensstämmer med tidigare instruktioner och välj därefter 'Install'
+- Verifiera att samtlig information överensstämmer med tidigare instruktioner och välj därefter 'Install'
 ![summary](assets/summary.png)
 
 ---
 
-## Efter installtionen 
+## Efter installationen 
 Det är några saker som du ska göra efter att du har installerat Kubuntu, och det är:
 1. Ändra skalan på skärmen (frivilligt)
 2. Installera Firefox Developer Edition
@@ -46,7 +46,7 @@ Det är några saker som du ska göra efter att du har installerat Kubuntu, och 
 
 ### 1. Ändra skalan på skärmen (frivilligt)  
 Det första du bör göra efter att du är klar med installationen är att kolla så att skalan på skärmen är rätt.
-1. Tryck på **Windows-knappen** och sök efter *System Settings*.
+1. Tryck på **Windows-tangenten** och sök efter *System Settings*.
 2. Gå in på *Settings* under *Input & Output* och navigera till *Display & Monitor*.
 3. Under *Display & Monitor*, kontrollera att skalan (*Scale*) är satt på **100%**.
 
@@ -76,11 +76,11 @@ Pin: origin packages.mozilla.org
 Pin-Priority: 1000
 ' | sudo tee /etc/apt/preferences.d/mozilla
 ```
-- Uppdatera din paketlista och installera Firefox .deb-paketet:
+- Uppdatera paketlistan och installera Firefox .deb-paketet:
 ```
 sudo apt-get update && sudo apt-get install firefox-devedition
 ```
-Nu bör **Firefox Developer Edition** vara installerat.
+Nu bör **Firefox Developer Edition** vara installerad.
 
 ### 3. Installera VSCodium
 - Öppna en terminal i Kubuntu och använd följande kommando för att hämta utvecklarens GPG-signaturnyckel och lägga till den i ditt system. På så sätt kommer ditt Kubuntu-system att lita på de paket som är signerade av denna utvecklare.
