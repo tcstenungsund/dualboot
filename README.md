@@ -1,7 +1,8 @@
 # Hur man skapar dual boot med Kubuntu och Windows 
 
 ## Innan du börjar  
-- Sätt i strömkabel och Kubuntu USB-minnet in i datorn
+- Sätt i strömkabel in i datorn
+- Kubuntu USB-minnet in i datorn
 
 ## Installation
 ### Stäng av Secure Boot
