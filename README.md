@@ -19,7 +19,7 @@
 - Välj 'UEFI - Kingston DataTraveler [...]'
 - Välj 'Try or Install Kubuntu'
 
-## Vad du väljer under installationen
+### Vad du väljer under installationen
 - För nätverksanslutning, välj 'WiFi tcstenungsund' och skriv i lösenordet
 - Klicka 'Install Kubuntu'
 - Välj Europe, Stockholm som tidszon
@@ -29,22 +29,20 @@
 - Fyll i uppgifterna i användarformuläret
 - Verifiera att samtlig information är överensstämmer med tidigare instruktioner och välj därefter 'Install'
 
+---
+
 ## Efter installtionen 
-Det är några saker som du ska göra efter att du har installerat Kubuntu, och det är:  
+Det är några saker som du ska göra efter att du har installerat Kubuntu, och det är:
 1. Ändra skalan på skärmen (frivilligt)
 2. Installera Firefox Developer Edition
 3. Installera VSCodium
 4. Installera Git
 
----
-
 ### 1. Ändra skalan på skärmen (frivilligt)  
 Det första du bör göra efter att du är klar med installationen är att kolla så att skalan på skärmen är rätt.
-1. Tryck på **Windows-knappen** och sök efter *System Settings*.  
-2. Gå in på *Settings* under *Input & Output* och navigera till *Display & Monitor*.  
-3. Under *Display & Monitor*, kontrollera att skalan (*Scale*) är satt på **100%**.  
-
----
+1. Tryck på **Windows-knappen** och sök efter *System Settings*.
+2. Gå in på *Settings* under *Input & Output* och navigera till *Display & Monitor*.
+3. Under *Display & Monitor*, kontrollera att skalan (*Scale*) är satt på **100%**.
 
 ### 2. Installera Firefox Developer Edition  
 - Öppna terminalen (ALT+CTRL+T)
@@ -78,8 +76,6 @@ sudo apt-get update && sudo apt-get install firefox-devedition
 ```
 Nu bör **Firefox Developer Edition** vara installerat.
 
----
-
 ### 3. Installera VSCodium
 - Öppna en terminal i Kubuntu och använd följande kommando för att hämta utvecklarens GPG-signaturnyckel och lägga till den i ditt system. På så sätt kommer ditt Kubuntu-system att lita på de paket som är signerade av denna utvecklare.
 ```
@@ -97,8 +93,6 @@ sudo apt update
 ```
 sudo apt install codium
 ```
-
----
 
 ### 4. Installera Git
 Git bör vara installerat från början. Verifiera detta med detta kommando i terminalen:
