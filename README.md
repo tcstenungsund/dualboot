@@ -1,7 +1,15 @@
 # Hur man skapar dual boot med Kubuntu och Windows 
 
-## Innan du börjar  
+## Innan du börjar
 Sätt i strömkabel in i datorn
+
+## Inaktivera BitLocker
+Detta steg kan skippas om du redan har inaktiverat
+- Öppna Windows-startmenyn
+- Skriv in BitLocker
+- Välj 'Hantera BitLocker'
+- Välj 'Inaktivera BitLocker'
+- Välj 'Stäng av BitLocker'
 
 ## Installation
 ### Stäng av Secure Boot
