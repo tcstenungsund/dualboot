@@ -15,6 +15,7 @@ Sätt i strömkabel in i datorn
 - Sätt i USB-stickan
 - Välj 'Save Changes and Exit', sedan 'Yes'
 - Tryck upprepat på F9
+	- Om Windows startas har du misslyckats och behöver starta om datorn och åter trycka F9.
 - Välj 'UEFI - Kingston DataTraveler [...]'
 - Välj 'Try or Install Kubuntu'
 ![try-or-install](assets/try-or-install.png)
