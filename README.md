@@ -59,23 +59,16 @@ sudo install -d -m 0755 /etc/apt/keyrings
 ```
 - Importera Mozilla APT-arkivets signeringsnyckel:
 ```
-wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | \
-sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
+wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
 ```
 - Fingeravtrycket ska vara (35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3). Du kan kontrollera det med följande kommando:
 ```
-gpg -n -q --import --import-options import-show \
-/etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; \
-gsub(/^ +| +$/,""); if($0 == \
-"35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3") print "\nThe key \
-fingerprint matches ("$0").\n"; else print "\nVerification failed: \
-the fingerprint ("$0") does not match the expected one.\n"}'
+gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk '/pub/{getline; gsub(/^ +| +$/,""); if($0 == "35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3") print "\nThe key 
+fingerprint matches ("$0").\n"; else print "\nVerification failed: the fingerprint ("$0") does not match the expected one.\n"}'
 ```
 - Lägg till Mozilla APT-arkivet i din källlista:
 ```
-echo "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] \
-https://packages.mozilla.org/apt mozilla main" | sudo tee -a \
-/etc/apt/sources.list.d/mozilla.list > /dev/null
+echo "deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://packages.mozilla.org/apt mozilla main" | sudo tee -a /etc/apt/sources.list.d/mozilla.list > /dev/null
 ```
 - Konfigurera APT för att prioritera paket från Mozilla-arkivet:
 ```
@@ -94,15 +87,11 @@ Nu bör **Firefox Developer Edition** vara installerad.
 ### 3. Installera VSCodium
 - Öppna en terminal i Kubuntu och använd följande kommando för att hämta utvecklarens GPG-signaturnyckel och lägga till den i ditt system. På så sätt kommer ditt Kubuntu-system att lita på de paket som är signerade av denna utvecklare.
 ```
-sudo wget \
-https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
--O /usr/share/keyrings/vscodium-archive-keyring.asc
+sudo wget https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg -O /usr/share/keyrings/vscodium-archive-keyring.asc
 ```
 - Nästa steg är att lägga till arkivet i systemets sources.list-fil. På så sätt vet ditt Kubuntu-system varifrån det ska hämta paketet.
 ```
-echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.asc \
-] https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs vscodium \
-main' | sudo tee /etc/apt/sources.list.d/vscodium.list
+echo 'deb [ signed-by=/usr/share/keyrings/vscodium-archive-keyring.asc ] https://paulcarroty.gitlab.io/vscodium-deb-rpm-repo/debs vscodium main' | sudo tee /etc/apt/sources.list.d/vscodium.list
 ```
 - Uppdatera den lokala paketcachen så att ditt system är medvetet om paketen från det nyligen tillagda arkivet.
 ```
