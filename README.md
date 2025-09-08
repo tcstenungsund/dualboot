@@ -11,7 +11,7 @@ Sätt i strömkabel in i datorn
 - Stäng av Secure Boot
 - Gå tillbaka till 'Main'
 
-### Boota installationsmediat
+### Boota installationsmediet
 - Sätt i USB-stickan
 - Välj 'Save Changes and Exit', sedan 'Yes'
 - Tryck upprepat på F9
