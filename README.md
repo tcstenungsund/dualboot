@@ -4,9 +4,9 @@
 Sätt i strömkabel in i datorn
 
 ## Inaktivera BitLocker
-Detta steg kan skippas om du redan har inaktiverat
+Detta steg kan skippas om du redan har inaktiverat BitLocker.
 - Öppna Windows-startmenyn
-- Skriv in BitLocker
+- Skriv in 'BitLocker'
 - Välj 'Hantera BitLocker'
 - Välj 'Inaktivera BitLocker'
 - Välj 'Stäng av BitLocker'
