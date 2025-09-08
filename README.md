@@ -51,7 +51,7 @@ Det första du bör göra efter att du är klar med installationen är att kolla
 3. Under *Display & Monitor*, kontrollera att skalan (*Scale*) är satt på **100%**.
 
 ### 2. Installera Firefox Developer Edition  
-- Öppna terminalen (ALT+CTRL+T)
+- Öppna terminalen (ALT+CTRL+T). Använd **CTRL+SHIFT+V** för att klistra in nedanstående kommandon i terminalen.
 - Skapa en katalog för att lagra APT-arkivets nycklar:
 ```
 sudo install -d -m 0755 /etc/apt/keyrings
