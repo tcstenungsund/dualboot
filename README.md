@@ -1,8 +1,11 @@
-# Hur man skapar dual boot med Kubuntu och Windows 
+# Hur man skapar dual boot med Kubuntu och Windows
 
 ## Innan du börjar
 - Sätt i strömkabel in i datorn
 - Se till att ha 40-50GB ledigt
+
+### Hur man stänger av datorn helt
+Om du bara trycker kort på avstängningsknappen går den oftast över i viloläge. Du kommer med stor sannolikhet behöva starta om datorn under guiden. För att stänga av datorn helt måste du istället hålla inne avstängningsknappen tills den slutar blinka.
 
 ## Inaktivera BitLocker
 Detta steg kan skippas om du redan har inaktiverat BitLocker.
