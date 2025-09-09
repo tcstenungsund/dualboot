@@ -28,6 +28,8 @@ Detta steg kan skippas om du redan har inaktiverat BitLocker.
 - Välj '*Save Changes and Exit*, sedan '*Yes*'
 - Tryck upprepat på F9
 	- Om Windows startas har du misslyckats och behöver starta om datorn och åter trycka F9.
+- Skriv in den 4-siffriga koden som står på sidan
+![BIOS_Secure_Platform_Management](assets/BIOS_SPM.jpeg)
 - Välj '*UEFI - Kingston DataTraveler [...]*'
 - Välj '*Try or Install Kubuntu*'
 ![try-or-install](assets/try-or-install.png)
