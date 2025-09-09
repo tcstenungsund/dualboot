@@ -1,7 +1,8 @@
 # Hur man skapar dual boot med Kubuntu och Windows 
 
 ## Innan du börjar
-Sätt i strömkabel in i datorn
+- Sätt i strömkabel in i datorn
+- Se till att ha 40-50GB ledigt
 
 ## Inaktivera BitLocker
 Detta steg kan skippas om du redan har inaktiverat BitLocker.
